@@ -4,7 +4,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 model_name = "Sakonii/distilgpt2-nepali"
 
 tokenizer = AutoTokenizer.from_pretrained(model_name) # getting auto tokenizer for this model
-model =AutoModelForCausalLM.from_pretrained(model_name) # getting auto model to perform seq to seq for this model
+model =AutoModelForCausalLM.from_pretrained(model_name) # getting auto model to perform on this model
 
 #input prompt
 prompt = "नेपालका धेरैजसो चाडपर्वहरूमध्ये,"
